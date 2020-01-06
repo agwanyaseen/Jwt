@@ -1,0 +1,8 @@
+F:\TechoRexNotes\webservice\TechnorexNotes\TechoRexNotes.Service\bin\Debug\netstandard2.0\TechoRexNotes.Service.deps.json
+F:\TechoRexNotes\webservice\TechnorexNotes\TechoRexNotes.Service\bin\Debug\netstandard2.0\TechoRexNotes.Service.dll
+F:\TechoRexNotes\webservice\TechnorexNotes\TechoRexNotes.Service\bin\Debug\netstandard2.0\TechoRexNotes.Service.pdb
+F:\TechoRexNotes\webservice\TechnorexNotes\TechoRexNotes.Service\obj\Debug\netstandard2.0\TechoRexNotes.Service.csprojAssemblyReference.cache
+F:\TechoRexNotes\webservice\TechnorexNotes\TechoRexNotes.Service\obj\Debug\netstandard2.0\TechoRexNotes.Service.AssemblyInfoInputs.cache
+F:\TechoRexNotes\webservice\TechnorexNotes\TechoRexNotes.Service\obj\Debug\netstandard2.0\TechoRexNotes.Service.AssemblyInfo.cs
+F:\TechoRexNotes\webservice\TechnorexNotes\TechoRexNotes.Service\obj\Debug\netstandard2.0\TechoRexNotes.Service.dll
+F:\TechoRexNotes\webservice\TechnorexNotes\TechoRexNotes.Service\obj\Debug\netstandard2.0\TechoRexNotes.Service.pdb
