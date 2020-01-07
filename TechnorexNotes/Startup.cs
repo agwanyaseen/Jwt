@@ -1,19 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using TechnorexNotes.Shared;
-using Microsoft.IdentityModel.Tokens;
 
 namespace TechnorexNotes
 {
@@ -38,7 +31,9 @@ namespace TechnorexNotes
                     ValidateAudience = false,
                     ValidateIssuerSigningKey = true,
                     ValidateLifetime = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Keys.SecretKey))
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Keys.SecretKey)),
+                    ValidIssuer = Keys.Issuer,
+                    ValidAudience = Keys.Issuer
                 };
             });
              
@@ -53,6 +48,9 @@ namespace TechnorexNotes
             {
                 app.UseDeveloperExceptionPage();
             }
+
+
+            app.UseAuthentication();
 
             app.UseRouting();
 
