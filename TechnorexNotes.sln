@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnorexNotes", "TechnorexNotes\TechnorexNotes.csproj", "{5F8B32AF-E4C7-4E77-BE8C-1CD9F0F883A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechoRexNotes.Service", "TechoRexNotes.Service\TechoRexNotes.Service.csproj", "{CDD8DA0A-A599-42FB-BDDF-1E8C497FFF17}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

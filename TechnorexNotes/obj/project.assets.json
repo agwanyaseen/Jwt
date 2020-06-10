@@ -8294,23 +8294,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yaseen\\.nuget\\packages\\": {},
+    "C:\\Users\\yaseen\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\TechoRexNotes\\webservice\\TechnorexNotes\\TechnorexNotes\\TechnorexNotes.csproj",
+      "projectUniqueName": "D:\\Projects\\jwt\\Jwt\\TechnorexNotes\\TechnorexNotes.csproj",
       "projectName": "TechnorexNotes",
-      "projectPath": "F:\\TechoRexNotes\\webservice\\TechnorexNotes\\TechnorexNotes\\TechnorexNotes.csproj",
-      "packagesPath": "C:\\Users\\Yaseen\\.nuget\\packages\\",
-      "outputPath": "F:\\TechoRexNotes\\webservice\\TechnorexNotes\\TechnorexNotes\\obj\\",
+      "projectPath": "D:\\Projects\\jwt\\Jwt\\TechnorexNotes\\TechnorexNotes.csproj",
+      "packagesPath": "C:\\Users\\yaseen\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\jwt\\Jwt\\TechnorexNotes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Yaseen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yaseen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8368,6 +8368,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8376,7 +8394,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
